@@ -6,7 +6,11 @@ def read_db(direction="db\credit_account.txt"):
 
 def overwrite_database(direction="db\credit_account.txt"):
     credit = open(direction, "w")
-    credit.write(input("Introduce the credit of the account: "))
+    try:
+        data_enter = int(input("Introduce the credit of the account: "))
+        credit.write(str(data_enter))
+    except ValueError:
+        pass
     credit.close
 
 def enter_credit(credit_account, credit_to_introduce, direction="db\credit_account.txt"):
