@@ -12,7 +12,7 @@ It should display the current balance.
 
 ## Example
 
-![Example](./rsc/captura1.JPG)
+![Example](./rsc/capture1.PNG)
         
 ## Libraries and Tools
 
@@ -53,8 +53,38 @@ The project is a banking system that allows credit to be deposited and withdrawn
 
 The project in operation it see like this:
 
-![Example](./rsc/capture.PNG)
+![Example](./rsc/capture1.PNG)
 
 Below I will show each function one by one:
 
-![Example](./rsc/capture.)
+![Example](./rsc/capture10.PNG)
+
+This option shows the current balance in the account 
+
+![Example](./rsc/capture2.PNG)
+
+This option changes the current balance in the account to another
+
+![Example](./rsc/capture3.PNG)
+
+This option adds a defined balance amount to the current account balance
+
+![Example](./rsc/capture4.PNG)
+
+This option removes a defined balance amount from the account balance
+
+# Architecture
+
+The project has three folders in the rsc, db, and src. In rsc, there are only a couple of images used in the readme; in db, there's a file containing the account balance; and in src, there's the main file and a series of modules in a separate folder.
+
+# Run & Configure
+
+- Installation
+
+Clone the repository:
+
+git clone https://github.com/kevin-pb/python-proyect-simple-banking-system.git
+
+- Run
+
+python main.py
